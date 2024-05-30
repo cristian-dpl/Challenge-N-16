@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h2{
+    margin: 0px auto 50px ;
+    text-align: center;
+    color: #d0cdc9;
+    background-color: #4c5b6c;
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    width: 60%;
+}
+
+input{
+    width: 60%;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+
+input:focus{
+    background-color: #d0cdc99c;
+    border: 1px solid #4c5b6c;
+
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    border: 1px solid #ccc;
+    width: 60%;
+    text-align: justify;
+    list-style: none;
+    margin: 10px;
+    box-shadow: 0px 0px 20px #858585;
+}
+
+.container__div{
+    margin: 15px;
+
+}
+
+div{
+    margin: 15px;
+}
+
+button{
+    display: block;
+    width: 15%;
+    padding: 5px;
+    background-color: #0051ff;
+    color: #ccc;
+    border: none;
+    margin: auto;
+}
+
+button:hover{
+    transform: scale(0.9, 0.9);
+    cursor: pointer;
+}
+
+.btnSave{
+    width: 8%;
+    font-size: medium;
+    padding: 7px; 
+    margin-bottom: 50px;
+}
+
+.btnSave:hover{
+    background-color: #4c5b6c;
+}
+
+.btnDelete{
+    background-color: red;
+    margin: 5px auto 10px;
+}
+
+
